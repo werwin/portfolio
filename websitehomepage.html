@@ -1,6 +1,7 @@
 <html>
 <head> 
 	<style>
+	
 		html { 
 			background: url("cardark-3.jpg") no-repeat center center fixed; 
 			-webkit-background-size: cover;
@@ -10,33 +11,49 @@
 			}
 			
 		#blog {
-		
 			width: 7em;
 			position: relative;
 			float: left;
-			right: -40%;
-			
-		}
+			right: -40%;	}
 		
 		#portfolio {
-		
 			width: 11em;
 			position: relative;
 			float: left;
-			right: -45%;
-		}
+			right: -45%;}
 		
 		#contact {
-		
 			width: 9em;
 			position: relative;
 			float: left;
 			right: -45%;
 			top:5%;
-			
 		}
 		
-
+		@media (max-width: 600px) {
+		#blog {
+			width: 8em;
+			position: relative;
+			float: left;
+			right: 40%;
+			top:50%;	}
+		
+		#portfolio {
+			width: 12em;
+			position: relative;
+			float: left;
+			right: -20%;
+			top:30%;}
+		
+		#contact {
+			width: 10em;
+			position: relative;
+			float: left;
+			right: -20%;
+			top:15%;
+		}
+  }
+}
 		
 	</style> 
 </head>
